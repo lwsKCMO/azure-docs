@@ -95,8 +95,7 @@ You must have an existing Azure subscription and one or more storage accounts to
 
 > [!IMPORTANT] 
 > The Azure Import Export service does not support storage accounts where the [Virtual Network Service Endpoints](../../virtual-network/virtual-network-service-endpoints-overview.md) feature has been enabled. 
-> 
-> 
+
 
 ### Data types
 You can use Azure Import/Export service to copy data to **Block** blobs, **Page** blobs, or **Files**. Conversely, you can only export **Block** blobs, **Page** blobs or **Append** blobs from Azure storage using this service. The service supports only import of Azure Files into Azure storage. Exporting Azure Files is not currently supported.
@@ -128,7 +127,6 @@ Download the latest version of the [WAImportExport tool](http://download.microso
 >[!NOTE]
 >**Previous Version:** You can [download WAImportExpot V1](http://download.microsoft.com/download/0/C/D/0CD6ABA7-024F-4202-91A0-CE2656DCE413/WaImportExportV1.zip) version of the tool and refer to [WAImportExpot V1 usage guide](storage-import-export-tool-how-to-v1.md). WAImportExpot V1 version of the tool does provide support for **preparing disks when data is already pre-written to the disk**. If the only key available is SAS-Key, you need to use WAImportExpot V1 tool .
 
->
 
 ### Hard disk drives
 Only 2.5 inch SSD or 2.5" or 3.5" SATA II or III internal HDD are supported for use with the Import/Export service. A single import/export job can have a maximum of 10 HDD/SSDs and each individual HDD/SSD can be of any size. Large number of drives can be spread across multiple jobs and there is no limits on the number of jobs that can be created. 
@@ -362,8 +360,7 @@ The first step when importing data using the Azure Import/Export service is to p
 
 > [!IMPORTANT]
 > Each hard disk drive you prepare will result in a journal file. When you are creating the import job using the Azure portal, you must upload all the journal files of the drives which are part of that import job. Drives without journal files will not be processed.
-> 
->
+
 
 Below are the commands and examples for preparing the hard disk drive using WAImportExport tool.
 
