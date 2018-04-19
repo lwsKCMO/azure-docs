@@ -126,7 +126,7 @@ The WAImportExport tool is only compatible with 64-bit Windows operating system.
 Download the latest version of the [WAImportExport tool](http://download.microsoft.com/download/3/6/B/36BFF22A-91C3-4DFC-8717-7567D37D64C5/WAImportExportV2.zip). For more details about using the WAImportExport Tool, see the [Using the WAImportExport Tool](storage-import-export-tool-how-to.md).
 
 >[!NOTE]
->**Previous Version:** You can [download WAImportExpot V1](http://download.microsoft.com/download/0/C/D/0CD6ABA7-024F-4202-91A0-CE2656DCE413/WaImportExportV1.zip) version of the tool and refer to [WAImportExpot V1 usage guide](storage-import-export-tool-how-to-v1.md). WAImportExpot V1 version of the tool does provide support for **preparing disks when data is already pre-written to the disk**. If the only key available is SAS-Key, you need to use WAImportExpot V1 tool .
+>**Previous Version:** You can [download WAImportExport V1](http://download.microsoft.com/download/0/C/D/0CD6ABA7-024F-4202-91A0-CE2656DCE413/WaImportExportV1.zip) version of the tool and refer to [WAImportExport V1 usage guide](storage-import-export-tool-how-to-v1.md). WAImportExport V1 version of the tool does provide support for **preparing disks when data is already pre-written to the disk**. If the only key available is SAS-Key, you need to use WAImportExport V1 tool .
 
 >
 
